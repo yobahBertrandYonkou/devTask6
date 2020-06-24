@@ -37,7 +37,7 @@ buildPipelineView('Dev Task6') {
     filterExecutors()
     title('DevOps Task6 Pipeline')
     displayedBuilds(1)
-    selectedJob('task6SeedJob')
+    selectedJob('podLauncher')
     alwaysAllowManualTrigger()
     showPipelineParameters()
     refreshFrequency(60)
