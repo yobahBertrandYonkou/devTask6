@@ -7,9 +7,7 @@ job("podLauncher") {
 
     //executes commands on shell
     steps{
-        shell("
-            echo 'hi'
-        ")
+        shell("chmod +x ")
     }
 
     //triggers website tester on success
