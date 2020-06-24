@@ -1,3 +1,4 @@
+//creates first job
 job("podLauncher") {
 
     description("checks code language and launches the respective pod")
@@ -17,6 +18,7 @@ job("podLauncher") {
     }
 }
 
+//creates second job
 job("websiterTester"){
     description("connects to website and gets status code")
 
@@ -29,3 +31,14 @@ job("websiterTester"){
     }
 }
 
+//creates a build pipeline view
+buildPipelineView('devTask6') {
+    filterBuildQueue()
+    filterExecutors()
+    title('DevTask6 Pipeline')
+    displayedBuilds(5)
+    selectedJob('podLauncher')
+    alwaysAllowManualTrigger()
+    showPipelineParameters()
+    refreshFrequency(60)
+}
