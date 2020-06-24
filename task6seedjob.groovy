@@ -1,4 +1,4 @@
-job("contLauncher") {
+job("podLauncher") {
 
     description("checks code language and launches the respective pod")
 
