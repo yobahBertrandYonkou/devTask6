@@ -41,4 +41,5 @@ buildPipelineView('devTask6') {
     alwaysAllowManualTrigger()
     showPipelineParameters()
     refreshFrequency(60)
+    displayedBuilds(1)
 }
