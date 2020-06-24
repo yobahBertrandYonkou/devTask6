@@ -36,7 +36,7 @@ buildPipelineView('Dev Task6') {
     filterBuildQueue()
     filterExecutors()
     title('DevOps Task6 Pipeline')
-    displayedBuilds(1)
+    displayedBuilds(5)
     selectedJob('podLauncher')
     alwaysAllowManualTrigger()
     showPipelineParameters()
