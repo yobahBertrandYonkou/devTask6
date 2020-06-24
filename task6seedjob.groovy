@@ -7,7 +7,8 @@ job("podLauncher") {
 
     //executes commands on shell
     steps{
-        shell("chmod +x ")
+         shell("#!/bin/bash \nchmod +x podLauncher.sh siteTester.sh \n./podLauncher.sh \n./siteTester.sh")
+
     }
 
     //triggers website tester on success
