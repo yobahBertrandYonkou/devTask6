@@ -32,11 +32,11 @@ job("websiterTester"){
 }
 
 //creates a build pipeline view
-buildPipelineView('DevTask6') {
+buildPipelineView('Dev Task6') {
     filterBuildQueue()
     filterExecutors()
     title('DevOps Task6 Pipeline')
-    displayedBuilds(5)
+    displayedBuilds(1)
     selectedJob('task6SeedJob')
     alwaysAllowManualTrigger()
     showPipelineParameters()
