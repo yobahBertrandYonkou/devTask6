@@ -7,7 +7,7 @@ job("podLauncher") {
 
     //executes commands on shell
     steps{
-         shell("#!/bin/bash \nchmod +x podLauncher.sh siteTester.sh \n./podLauncher.sh \n./siteTester.sh")
+         shell("#!/bin/bash \nchmod +x podLauncher.sh siteTester.sh \n./podLauncher.sh")
 
     }
 
