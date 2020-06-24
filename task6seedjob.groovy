@@ -25,13 +25,7 @@ job("websiterTester"){
 
     //executes on shell
     steps{
-        shell()
-        shell()
-        shell()
-        shell()
-        shell()
-        shell()
-        shell()
+        shell("#!/bin/bash \n./siteTester.sh")
     }
 }
 
