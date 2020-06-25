@@ -40,7 +40,6 @@ case  $status  in
    echo "launching html server..."
    sudo kubectl create -f html-Deployment-test.yml
    echo "exposing server..."
-   sudo kubectl expose deployment my-dep --port 80 --type=NodePort
    echo "EXPOSED!!!"
               ;;
     1)
@@ -48,7 +47,6 @@ case  $status  in
    echo "launching php server..."
    sudo kubectl create -f php-Deployment-test.yml
    echo "exposing server..."   
-   sudo kubectl expose deployment my-dep --port 80 --type=NodePort
    echo "EXPOSED!!!"
               ;;
     esac
