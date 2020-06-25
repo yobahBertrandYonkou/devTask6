@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo sleep 10
+sudo sleep 20
 
 nstatus=200
 
